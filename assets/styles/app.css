@@ -1,0 +1,54 @@
+/*------------------------------------*\
+  #VARIABLES
+\*------------------------------------*/
+
+:root {
+
+}
+
+
+/*------------------------------------*\
+  #BASES
+\*------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: clamp(55%, 1.1vw, 66%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none inside none;
+}
+
+input,
+button {
+    border: 0;
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/*------------------------------------*\
+  #REUSABLES
+\*------------------------------------*/
+

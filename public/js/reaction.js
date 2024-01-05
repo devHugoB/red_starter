@@ -1,0 +1,1 @@
+const reactionButton = document.querySelector('.reaction__button');

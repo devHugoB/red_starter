@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Tester votre temps de réaction{% endblock %}
+
+{% block body %}
+    <form action="{{ path('reaction_save') }}">
+        <button class="reaction__button">Cliquer pour commencer</button>
+    </form>
+    <script src="{{ asset('reaction.js') }}"></script>
+{% endblock %}
